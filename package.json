@@ -1,6 +1,6 @@
 {
   "name": "floating-vue2",
-  "version": "0.0.1",
+  "version": "1.0.19",
   "description": "Tooltips, dropdowns and popovers using floating-ui",
   "author": "Giannis Koutsaftakis",
   "scripts": {
@@ -11,8 +11,8 @@
     "lint": "eslint . --ext .js,.vue",
     "test:unit": "peeky run"
   },
-  "main": "dist/floating-vue.umd.js",
-  "module": "dist/floating-vue.es.js",
+  "main": "dist/floating-vue2.umd.js",
+  "module": "dist/floating-vu2.es.js",
   "types": "dist/index.d.ts",
   "dependencies": {
     "@floating-ui/dom": "^0.1.10",
@@ -65,7 +65,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kouts/floating-vue2.git",
-    "directory": "packages/floating-vue"
+    "url": "git+https://github.com/kouts/floating-vue2.git"
   }
 }
