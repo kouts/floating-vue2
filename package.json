@@ -1,6 +1,6 @@
 {
-  "name": "floating-vue",
-  "version": "1.0.0",
+  "name": "floating-vue2",
+  "version": "0.0.1",
   "description": "Tooltips, dropdowns and popovers using floating-ui",
   "author": "Giannis Koutsaftakis",
   "scripts": {
@@ -15,7 +15,6 @@
   "module": "dist/floating-vue.es.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "vue": "^2.6.10",
     "@floating-ui/dom": "^0.1.10",
     "vue-resize": "^1.0.0"
   },
@@ -43,7 +42,8 @@
     "vite": "^2.7.12",
     "vite-plugin-vue2": "^1.9.2",
     "vue-template-compiler": "^2.6.10",
-    "vue-typegen": "^0.2.0"
+    "vue-typegen": "^0.2.0",
+    "vue": "^2.6.10"
   },
   "browserslist": [
     "> 1%",
